@@ -1,3 +1,4 @@
+import 'package:dragablescrollablesheet/cart_page.dart';
 import 'package:dragablescrollablesheet/curosoul.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const CartPage(),
     );
   }
 }
